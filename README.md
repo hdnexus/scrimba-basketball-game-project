@@ -1,6 +1,6 @@
 # 🏀 Basketball Game
 
-A fun and interactive **Basketball Game** project built as part of the [Scrimba Frontend Development Course](https://scrimba.com/).  
+A simple and fun and interactive **Basketball Game** project built as part of the [Scrimba Frontend Development Course](https://scrimba.com/).  
 This project was created to practice **JavaScript fundamentals**
 
 ---
