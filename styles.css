@@ -1,0 +1,100 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+@font-face {
+  font-family: "CursedTimer";
+  src: url("fonts/CursedTimerUlil-Aznm.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+body {
+  background-color: #1b244a;
+  font-family: "CursedTimer", sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.games {
+  display: flex;
+}
+
+.home-team {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-right: 100px;
+}
+
+h1 {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 40px;
+  color: #eeeeee;
+  margin-bottom: 1.5rem;
+}
+
+.score {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 200px;
+  height: 120px;
+  background-color: #080001;
+  margin-bottom: 1.5rem;
+}
+
+.score.leading {
+  border: 3px solid #fbbf24;
+  box-shadow: 0 0 15px rgba(52, 211, 153, 0.5);
+}
+
+p {
+  margin-top: 1rem;
+  font-size: clamp(2rem, 10vw, 5rem);
+  overflow: hidden;
+  color: #f94f6d;
+}
+
+.guest-team {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+button {
+  font-family: "CursedTimer", sans-serif;
+  background: none;
+  color: #9aabd8;
+  border-radius: 0.5rem;
+  font-size: 18px;
+  border: 2px solid #9aabd8;
+  width: 45px;
+  height: 45px;
+  cursor: pointer;
+  transition: background 0.2s ease, color 0.2s ease, transform 0.2s ease;
+}
+
+button:hover {
+  background: #f94f6d;
+  color: white;
+}
+
+.new-game {
+  margin-top: 4rem;
+  width: 10rem;
+}
+
+.new-game:hover {
+  background: #34d399;
+}
