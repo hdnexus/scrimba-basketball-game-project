@@ -19,7 +19,7 @@ This project was created to practice **JavaScript fundamentals**
 
 Here are a few screenshots of the game in action:
 
-| ![Screenshot 1](images/tela11.png) | ![Screenshot 2](images/tela2.png) | ![Screenshot 3](images/tela3.png) |
+| ![Screenshot 1](images/tela.png) | ![Screenshot 2](images/tela2.png) | ![Screenshot 3](images/tela3.png) |
 |:---------------------------------------:|:---------------------------------------:|:---------------------------------------:|
 | Scoreboard interface | Gameplay | New Game hover |
 
